@@ -1,0 +1,27 @@
+form {
+  padding: 20px;
+  background-image: url(https://i.picsum.photos/id/866/536/354.jpg?hmac=tGofDTV7tl2rprappPzKFiZ9vDh5MKj39oa2D--gqhA);
+  opacity: 0.7;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+input {
+  margin: 10px 0;
+  padding: 5px 0;
+  outline: none;
+}
+
+div {
+  font-family: 'Secular One', sans-serif;
+  font-weight: bold;
+  color: #3b3b3b;
+}
+
+button {
+  margin-left: 37%;
+}
+
+input.invalid {
+  outline: 1px solid #ff0000;
+}
