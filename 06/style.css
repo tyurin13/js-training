@@ -1,0 +1,36 @@
+form {
+  padding: 20px;
+  background-image: url(https://i.picsum.photos/id/188/536/354.jpg?hmac=o3z5jt461cqrakGUJR34etbdfE12X5peOIQHb0Ke9n0);
+  opacity: 0.7;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+input {
+  margin: 10px auto;
+  padding: 5px 0;
+  outline: none;
+  max-width: 100%;
+  text-align: center;
+}
+
+div {
+  font-family: 'Secular One', sans-serif;
+  font-weight: bold;
+  color: #3b3b3b;
+  text-align: center;
+}
+
+button {
+  margin-left: 45%;
+}
+
+input.invalid {
+  outline: 1px solid #ff0000;
+}
+
+div.inputbox {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
